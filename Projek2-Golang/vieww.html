@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning html/Template Function</title>
+</head>
+
+<body>
+    <p>{{html "
+        <h2>Hello</h2>"}}</p>
+    <br> {{if eq .Name "Bruce Wayne"}}
+    <p>I'm the Batman!</p>
+    {{else if ne .Name "Clark Kent"}}
+    <p>I'm neither Batman or Superman</p>
+    {{end}}
+
+</body>
+
+</html>
